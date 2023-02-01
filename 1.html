@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <input type="number" id="num" value="0">  <br>
+    <span id="result"></span> <br>
+    <button type="button" onclick="add()">Add</button>
+    <script type="application/javascript">
+        function add(){
+            const num=document.getElementById("num").value;
+            document.getElementById("result").innerHTML =`Multiply: ${5*parseInt(num)}`;
+       }
+    </script>
+    
+    
+</body>
+</html>
